@@ -1,0 +1,294 @@
+.back{
+    background-color: rgba(22, 16, 58, 0.589);
+    width: 100%;
+    height: 100%;
+}
+.wrap{
+    width: 68%;
+    margin: auto;
+}
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: rgb(63, 63, 63);
+}
+
+h2 a {
+    color: #0184e3;
+    text-decoration: none;
+}
+
+h2 a:hover {
+    color: #0184e3;
+    text-decoration: underline;
+}
+
+h3 a {
+    color: #00e8ff;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #00e8ff;
+}
+
+#menu-h{
+    background-color: rgb(37, 37, 39);
+}
+
+#menu-h ul {
+    
+    list-style: none;
+    padding: 15;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #4CAF50;
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: #4CAF50;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.container h3 {
+    font-size: 20px;
+}
+
+#apiDiv {
+    
+    padding: 10px;
+    padding-left: 20px;
+}
+input{
+    border-radius: 15px;
+    
+    background-color: rgb(20, 19, 107);
+    color: white;
+    
+}
+
+#apiDiv , #apiDiv {
+    font-size: 25px;
+    color: #000;
+}
+button{
+    font-size: 25px;
+    color: #000;
+    font-family: inherit;
+    font-size: 25px;
+    width: 140px;
+    height: 40px;
+}
+#apiDiv  {
+    
+    margin: 10px 0;
+}
+
+h4{
+    color: #FFF;
+    font-size: 30px;
+    text-align: center;
+}
+
+#apiDiv .imageDiv {
+    text-align: center;
+}
+
+#apiDiv .imageDiv img {
+    display: none;
+}
+
+#apiDiv #message {
+    padding-top: 10px;
+}
+
+#apiDiv #message .resultDiv {
+    
+    display: inline-block;
+}
+
+#apiDiv #message .resultDiv > p {
+    color: #000;
+    display: inline-block;
+    width: 95%;
+    padding: 10px;
+    border-bottom: double 2px #CCC;
+}
+
+#apiDiv #message .resultDiv .result {
+    width: 23%;
+    height: 300px;
+    margin: 6px;
+    padding: 10px;
+    float: left;
+    text-align: center;
+    cursor: pointer;
+    border:8px inset rgb(153, 4, 54);
+	background: #000000c4;
+}
+.resultDiv{
+    width: 100% !important;
+}
+#apiDiv #message .resultDiv .result img {
+    width: 75%;
+}
+img{
+    border:10px inset #7c710b;
+	background: transparent url(bk.png); 
+}
+p{
+    padding-top: 20px;
+}
+.wrapresult{
+    width: 100%;
+    height: 100%;
+}
+#apiDiv #message .resultDiv .result p {
+    margin: 0;
+}
+
+#apiDiv #message .resultDiv .result p a {
+    
+    text-decoration: none;
+    font-size: 20px;
+    height: 100px;
+}
+
+#apiDiv #message .resultDiv .result p a:hover {
+    text-decoration: underline;
+}
+
+#myModal {
+    color: #000;
+}
+
+#submit{
+    background: rgb(153, 4, 54);
+    border-radius: 25px;
+    color: white;
+    border: none;
+}
+#reset{
+    background: none;
+    color: white;
+    border: none;
+}
+#message{
+    color: white;
+}
+
+
+
+.modal-dialog{
+    width: 1000px;
+    height: 585px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.modal-content{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 17, 56, 0.938);
+}
+.modal-header{
+    height: 10%;
+}
+.modal-body{
+    display: inline-block;
+    width: 100%;
+    height: 90%;
+}
+
+.text-center{
+    
+    float: left;
+    margin-bottom: 0;
+    width: 40%;
+    height: 100%;
+    
+}
+.bio{
+   top: 0px;
+    float: right;
+    width: 59%;
+    height: 100%;
+    margin-left: -100px;
+    color: white;
+}
+.image-card{
+    width: 100%;
+    height: 100%;
+}
+ .close{
+    margin-top: -16px !important;
+    padding-left: 124px !important;
+    color: white;
+    opacity: 1 ;
+}
+
+.nav_links {
+    list-style: none;
+
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px
+}
+
+.nav_links li a:hover{
+    color: #c22727;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 0 5px 5px black;
+    
+
+}

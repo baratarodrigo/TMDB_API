@@ -1,0 +1,122 @@
+body {
+    font-family: 'Exo', Arial, sans-serif !important;
+    color: #ffffff;
+    margin: 0;
+    background-color: #111111;
+}
+
+input,
+button,
+a {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 400;
+}
+
+h1, .fa-film {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+h4 {
+    font-size: 1.5rem;
+}
+
+h5 {
+    font-size: 1.25rem;
+}
+
+h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.margin-top {
+    margin-top: 2em;
+}
+
+    div ul li a img {
+        max-width: 200px;
+        height: 250px;
+       
+    }
+
+    div ul li a  { 
+        transition: transform .2s;
+    }
+
+    div ul li a:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+    }
+
+    div ul li a label {
+        display: inline-block;
+        
+        width: 150px;
+        font-weight: bold;
+        height: auto;
+        text-align: center;
+        margin: auto;
+        cursor: pointer;
+    }
+    
+
+    
+div ul {
+    padding: 2em 4em;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+div ul li {
+    display: inline;
+    list-style: none;
+    margin: auto;
+    text-align: center;
+}
+
+div ul li a,
+ div ul li a:active,
+ div ul li a:visited {
+    display: inline-block;
+    vertical-align: top;
+    margin: 1em;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
